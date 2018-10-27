@@ -1,0 +1,56 @@
+<nav class="app">
+    <div class="wrapper">
+        <div class="header">
+            <nav class="logo-bar">
+                <div class="margin"></div>
+                    <div class="content">
+                        <img src="images/logos/logo_transparent.png" height="300px">
+                    </div>
+                <div class="margin"></div>
+            </nav>
+            <nav class="menu-buttons">
+                <div class="margin"></div>
+                <div class="content">
+                    <a [routerLink]="['Services']">Implementation</a>
+                    <a [routerLink]="['References']">Android IOS</a>
+                    <a [routerLink]="['Company']">Professional Services</a>
+                    <a [routerLink]="['Blog']">Consulting</a>
+                    <a [routerLink]="['Contact']">Products</a>
+                </div>
+                <div class="margin"></div>
+            </nav>
+        </div>
+        <router-outlet></router-outlet>
+        <div class="footer">
+            <img src="images/logos/logo_transparent.png" width="350px">
+        </div>
+    </div>
+</nav>
+<div class="mobile-menu-screen" *ngIf="showMenuScreen">
+    <div class="a-box"><div class="vertical-middle">
+        <a [routerLink]="['Services']" (click)="MenuOff()">Implementation Partner</a>
+    </div></div>
+    <div class="a-box"><div class="vertical-middle">
+        <a [routerLink]="['References']" (click)="MenuOff()">Android & IOS Apps</a>
+    </div></div>
+    <div class="a-box"><div class="vertical-middle">
+        <a [routerLink]="['Company']" (click)="MenuOff()">Professional Services</a>
+    </div></div>
+    <div class="a-box"><div class="vertical-middle">
+        <a [routerLink]="['Blog']" (click)="MenuOff()">Consulting</a>
+    </div></div>
+    <div class="a-box"><div class="vertical-middle">
+        <a [routerLink]="['Contact']" (click)="MenuOff()">Products</a>
+    </div></div>
+</div>
+<div class="mobile-menu">
+    <div class="margin"></div>
+    <div class="content">
+        <img src="images/logos/company-logo.png" height="50px">
+    </div>
+    <div class="margin"></div>
+    <div class="menu-link" (click)="MenuToggle()">
+        <div class="box-shadow-menu" *ngIf="!showMenuScreen"></div>
+        <div class="close-menu" *ngIf="showMenuScreen">&#10006;</div>
+    </div>
+</div>
