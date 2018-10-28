@@ -4,10 +4,11 @@ const PORT = process.env.PORT || 5000
 
 express()
   .use(express.static(path.join(__dirname, 'public')))
+  .use(require('express-naked-redirect')())
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
-    .get('/.well-known/acme-challenge/:content', function(req, res) {
+  .get('/.well-known/acme-challenge/:content', function(req, res) {
         var x = '9nbyuDS_ewIn_-5sTfBqFDuWxKIEf6hjzVIaG8HaS2o';
         var y = 'F5Pl8rUw-xaXI5pkBadQGnX7SWZXvG9uBNY9tIu46B4';
         if (y === req.params.content) {
