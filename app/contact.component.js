@@ -13,9 +13,9 @@ var router_deprecated_1 = require('@angular/router-deprecated');
 var ContactComponent = (function () {
     function ContactComponent(router) {
         this.router = router;
-        this.title = 'Amazing Products';
-        this.description = 'Androd & IOS apps';
-        this.content = 'Allie Info Tech products speak for themselves. We have published IOS games with our sister company www.onetaxicabs.com - Three Letter Words, a immersive word game to help improve your vocabulary in a fun way. New Word Search - a word search game in a grid of letters with great animations to help encourage players to make progress. Other games include Word Match Puzzle, Match Lines, Make Matching Lines and Jigsaw Puzzle Picture. To learn more about our apps please visit - https://itunes.apple.com/us/developer/manoj-kandlikar/id870007081. For enquiries email at info@allieinfotech.com, manoj@allieinfotech.com(President), katy.clemens@allieinfotech.com.';
+        this.title = 'PRODUCTS';
+        this.description = 'Androd & IOS apps | Product Engineering';
+        this.content = 'Allie Info Tech products speak for themselves. Our published IOS games with our sister company www.onetaxicabs.com are on the appstore. The apps include Three Letter Words, an immersive word game to help improve your vocabulary in a fun way. New Word Search - a word search game with a grid of alphabets with stunning animation. Other games include Word Match Puzzle, Match Lines, Make Matching Lines and Jigsaw Puzzle Picture. To learn more about our apps please visit - https://itunes.apple.com/us/developer/manoj-kandlikar/id870007081. For enquiries email at info@allieinfotech.com, manoj@allieinfotech.com(President), katy.clemens@allieinfotech.com.';
     }
     ContactComponent.prototype.ngOnInit = function () {
     };
