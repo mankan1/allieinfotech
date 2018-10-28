@@ -16,7 +16,7 @@ app.all(/.*/, function(req, res, next) {
   } else {
     res.redirect(301, "http://www." + host);
   }
-});
+})
 
   .get('/.well-known/acme-challenge/:content', function(req, res) {
         var x = '9nbyuDS_ewIn_-5sTfBqFDuWxKIEf6hjzVIaG8HaS2o';
