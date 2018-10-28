@@ -13,9 +13,9 @@ var router_deprecated_1 = require('@angular/router-deprecated');
 var ServicesComponent = (function () {
     function ServicesComponent(router) {
         this.router = router;
-        this.title = 'Implementation Partners';
-        this.description = 'We offer many kinds of Software Implementation services.';
-        this.content = 'We offer end to end software development and support services for your needs. Allie Info Tech services include gathering complex business requirements, software design and development. Allie Info Tech development strategy includes test driven development. Allie Info Tech seasonal developers write unit tests during development to build fail proof systems. We are on par with the latest technological advancements in Artificial Intelligence and Machine Learning, applying AI at any opportunity we see value in. We contribute to our clients needs during integration and user acceptment testing. Allie Info Tech engineers think through the problems and come up with optimal solutions during design and develpment making Software Systems highly reliable and scalable. We are heavy into Open source projects, contributing and giving back to the community. Allie Info Tech foucs is in development of Android, IOS apps with great user experience. We have experience in building complex Infrastructure systems in C++, Java and Web Technologies. For enquiries email at info@allieinfotech.com, manoj@allieinfotech.com(President), katy.clemens@allieinfotech.com.';
+        this.title = 'WHAT WE DO';
+        this.description = 'Every business has an engagement opportunity.';
+        this.content = 'Allie Info Tech is a digital engagement provider that helps the world’s leading brands show they care to the people who matter most. Our collective team of consultants, designers, developers, cloud advisors, and data scientists is driven by the human experience. It leads us to the “why” for your users, the “how” for your business today, and the “what could be” of tomorrow.For enquiries email at info@allieinfotech.com, manoj@allieinfotech.com(President), katy.clemens@allieinfotech.com.'
     }
     ServicesComponent.prototype.ngOnInit = function () {
     };

@@ -13,9 +13,9 @@ var router_deprecated_1 = require('@angular/router-deprecated');
 var CompanyComponent = (function () {
     function CompanyComponent(router) {
         this.router = router;
-        this.title = 'Professional Services';
-        this.description = 'Providing Professional Service resources onsite.';
-        this.content = 'We have highly skilled and qualified software engineering resources to help with development and maintenence of your complex software systems. Allie info Tech engineers go through screening on computer science fundamentals and enterprise and startup experience to fulfill the demands of engineering your products. Allie Info Tech resources have proven experience in silicon valley companies like Google, Apple and Facebook. Allie Info Tech resources have helped build distributed infrastructure for these enterprises and have found solutions to the most challenging problems these companies face along side their engineers. If you have startup needs or enterprise needs in technology , financial services and are looking for implementaion partners or just resources in development , testing or infrastructure please reach out to info@allieinfotech.com, manoj@allieinfotech.com(President), katy.clemens@allieinfotech.com.';
+        this.title = 'INDUSTRY EXPERTISE';
+        this.description = 'Many Industries, One Consumer';
+        this.content = 'We take pride in our strong vertical expertise. But we also know that insights from the solutions we have delivered help us to help all of our clients. Todays consumers expect each brand interaction to be seamless and intuitive, no matter the industry. We translate our cross-industry learnings into better solutions for all, because that's what we're best at - creating experiences for todays digital users.';
     }
     CompanyComponent.prototype.ngOnInit = function () {
     };

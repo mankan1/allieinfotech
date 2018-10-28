@@ -8,9 +8,9 @@ import { Router }           from '@angular/router-deprecated';
     'css/app.component.css']
 })
 export class CompanyComponent implements OnInit { 
-    title = 'Professional Services';
-    description = 'Providing Professional Service resources onsite.';
-    content = 'We have highly skilled and qualified software engineering resources to help with development and maintenence of your complex software systems. Allie info Tech engineers go through screening on computer science fundamentals and enterprise and startup experience to fulfill the demands of engineering your products. Allie Info Tech resources have proven experience in silicon valley companies like Google, Apple and Facebook. Allie Info Tech resources have helped build distributed infrastructure for these enterprises and have found solutions to the most challenging problems these companies face along side their engineers. If you have startup needs or enterprise needs in technology , financial services and are looking for implementaion partners or just resources in development , testing or infrastructure please reach out to info@allieinfotech.com, manoj@allieinfotech.com(President), katy.clemens@allieinfotech.com';
+    title = 'INDUSTRY EXPERTISE';
+    description = 'Many Industries, One Consumer';
+    content = 'We help clients across all industries solve their toughest business problems. By combining domain-specific expertise - and a deep understanding of the consumer - we envision and deliver effortless experiences that drive loyalty, increase order volumes, improve adherence, and accomplish your goals.We take pride in our strong vertical expertise. But we also know that insights from the solutions we've delivered help us to help all of our clients. Today's consumers expect each brand interaction to be seamless and intuitive, no matter the industry. We translate our cross-industry learnings into better solutions for all, because that's what we're best at - creating experiences for today's digital users.';
 
     constructor(private router: Router) { }
 
