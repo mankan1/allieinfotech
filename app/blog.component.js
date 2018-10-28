@@ -14,8 +14,8 @@ var BlogComponent = (function () {
     function BlogComponent(router) {
         this.router = router;
         this.title = 'CONSULTANCY SERVICES';
-        this.description = 'Provide highly skilled consultants onsite.';
-        this.content = 'Fortune 500 companies engage with Allie Info Tech to seek highly skilled resources for engineering and business needs. Do you have a tight deadline to meet ? or you need longterm professional engineering or business resources ?. We can provide highly skilled, experienced and successful engineers and implementation partners onsite to help speed up development and engineering. Allie Info Tech engineers and consultants have worked along side engineers from tech companies like Google, Apple and Facebook. For enquiries please reach out to info@allieinfotech.com, manoj@allieinfotech.com(President), katy.clemens@allieinfotech.com.';
+        this.description = 'Providing highly skilled consultants onsite';
+        this.content = 'Fortune 500 companies engage with Allie Info Tech to seek highly skilled resources for engineering and business needs. Do you have a tight deadline to meet ? or you need longterm professional engineering or business resources ?. We can provide highly skilled, experienced and successful engineers and implementation partners onsite to help speed up development and engineering. Allie Info Tech engineers and consultants have worked along side engineers from tech companies like Google, Apple and Facebook.';
     }
     BlogComponent.prototype.ngOnInit = function () {
     };

@@ -15,7 +15,7 @@ var ServicesComponent = (function () {
         this.router = router;
         this.title = 'WHAT WE DO';
         this.description = 'Every business has an engagement opportunity.';
-        this.content = 'Allie Info Tech is a digital engagement provider that helps the world’s leading brands show they care to the people who matter most. Our collective team of consultants, designers, developers, cloud advisors, and data scientists is driven by the human experience. It leads us to the “why” for your users, the “how” for your business today, and the “what could be” of tomorrow.For enquiries email at info@allieinfotech.com, manoj@allieinfotech.com(President), katy.clemens@allieinfotech.com.'
+        this.content = 'Allie Info Tech is a digital engagement provider that helps the world’s leading brands show they care to the people who matter most. Our collective team of consultants, designers, developers, cloud advisors, and data scientists is driven by the human experience. It leads us to the “why” for your users, the “how” for your business today, and the “what could be” of tomorrow. For enquiries email at info@allieinfotech.com, manoj@allieinfotech.com(President), katy.clemens@allieinfotech.com.'
     }
     ServicesComponent.prototype.ngOnInit = function () {
     };
